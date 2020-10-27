@@ -6,6 +6,7 @@ import store from './Redux/store'
 // import Myform from './Form'; 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import BasicTable from './Table/BasicTable';
+import FilterTable from './Table/GlobalFilter/FilterTable'
 
 function App(props) {
 
@@ -13,7 +14,9 @@ function App(props) {
     return (
         <Provider store={store}>
             {/* <Myform/> */}
-            <BasicTable/>
+            {/* <BasicTable/> */}
+
+            <FilterTable/>
         </Provider>
     );
 }

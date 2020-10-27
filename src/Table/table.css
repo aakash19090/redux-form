@@ -14,10 +14,22 @@ table {
   
   table tr:hover {background-color: #ddd;}
   
-  table th {
+  table th, tfoot td {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
     background-color: #4CAF50;
     color: white;
+  }
+
+  .sort_icon{
+    display: inline-block;
+    padding-left: 12px;
+  }
+
+  .sort_icon img{
+    max-width: 10px;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
   }
